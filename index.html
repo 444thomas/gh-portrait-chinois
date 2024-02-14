@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="img/logosite.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Lato:wght@900&display=swap"
+        rel="stylesheet">
+    <title>portrait chinois</title>
+</head>
+
+<body>
+    <div class="header">
+      <nav class="topnav">
+          <a href="#" class="logo"><img src="img/logosite.png" alt="logo qui rammène à la page d'accueuil."></a>
+          <div id="links">
+            <div class="portrait">
+                <p>Mon portrait chinois</p>
+            </div>
+              <!-- les élements du menu sont ajoutés dynamiquement par le script -->
+          </div>
+      </nav>
+    </div>
+    <div class="container">
+
+        <div class="scroller">
+            <ul class="tag-list">
+                <!-- les élements de la liste sont ajoutés dynamiquement par le script -->
+            </ul>
+        </div>
+        <div class="homeimg">
+            <img src="img/imageaccueuil.png" id="#home" alt="image d'accueuil">
+        </div>
+
+        <div class="liste-analogie"></div>
+    </div>
+</body>
+<footer>
+    <div class="copyright">
+        <p class="image1">
+            La première <a href="https://pixabay.com/photos/cat-maine-coon-feline-pet-fur-7954713/">image</a> vient de
+            <a href="https://pixabay.com/users/firmbee-663163/">firmbee sur pixabay</a>
+        </p>
+
+        <p class="image2">
+            La deuxième <a href="https://pixabay.com/photos/bubbles-water-bubbly-bubbling-230014/">image</a> vient de <a
+                href="https://pixabay.com/users/martinstr-108372/">martinstr sur pixabay</a>
+        </p>
+
+        <p class="image3">
+            La troisième <a href="https://pixabay.com/photos/ball-soccer-ball-soccer-football-488718/">image</a> vient
+            de <a href="https://pixabay.com/users/jarmoluk-143740/">jarmoluk sur pixabay</a>
+        </p>
+
+        <p class="image4">
+            La quatrième <a href="https://pixabay.com/photos/eiffel-tower-paris-france-3349075/">image</a> vient de <a
+                href="https://pixabay.com/users/thedigitalartist-202249/">thedigitalartist sur pixabay</a>
+        </p>
+
+        <p class="image5">
+            La cinquième <a href="https://ru.pinterest.com/pin/108156828543698726/">image</a> vient de <a
+                href="https://ru.pinterest.com/thebigberyl/"> thebigberyl sur pinterest</a>
+        </p>
+
+        <p class="image6">
+            La sixième <a href="https://i.pinimg.com/564x/da/cb/b6/dacbb62baa68df04347912d6937ae3ab.jpg">image</a> vient
+            de <a href="https://www.pinterest.fr/sarijami/"> sarijami sur pinterest</a>
+        </p>
+
+        <p class="image6">
+            La septième <a
+                href="https://cdn.pixabay.com/photo/2015/07/19/13/33/credit-card-851506_960_720.jpg">image</a> vient de
+            <a href="https://pixabay.com/fr/users/stevepb-282134/"> stevepb sur pinterest</a>
+        </p>
+
+    </div>
+    <form id="new_item">
+        <!--attributs action et method à remplir pour que le formulaire fonctionne-->
+        <fieldset>
+            <legend>Si j'étais...</legend>
+
+            <p class="txt-required">Les champs marqués de l'astérisque rouge <br>sont obligatoires.</p>
+
+            <p>
+                <label class="label" for="titre">Titre</label><br>
+                <input type="text" id="titre" class="w100">
+            </p>
+
+            <p>
+                <label class="label" for="analogie">Analogie<span class="star-required">*</span></label><br>
+                <input type="text" id="analogie" required class="w100">
+            </p>
+
+            <p>
+                <label class="label" for="valeurAnalogie">Valeur de l'analogie<span
+                        class="star-required">*</span></label><br>
+                <input type="text" id="valeurAnalogie" required class="w100">
+            </p>
+
+            <p>
+                <label class="label" for="description">Description<span class="star-required">*</span></label><br>
+                <input id="description" type="text" required class="w100">
+            </p>
+
+            <p>
+                <label class="label" for="img">lien de l'image</label><br>
+                <input id="img" type="url" class="w100">
+            </p>
+
+            <p>
+              <label class="label" for="alt">alt de l'image</label><br>
+              <input id="alt" type="text" class="w100">
+            </p>
+
+            <p>
+                <label class="label" for="email">email</label><span class="star-required">*</span></label><br>
+                <input id="email" type="email" required class="w100">
+              </p>
+
+            <input id="id" type="text" class="w100" value="new_section">
+            <p class="right">
+              <button type="button">Envoyer</button>
+            </p>
+
+        </fieldset>
+    </form>
+    <!--<section class="forml">
+        <p class="text">Si j'étais {{analogie}}, je serais {{valeurAnalogie}} {{description}}.</p>
+    </section>-->
+    <div class="copyrightsign">
+        &copy;Thomas Veber 2023, tout droit réservé
+    </div>
+</footer>
+<script src="script.js"></script>
+</html>

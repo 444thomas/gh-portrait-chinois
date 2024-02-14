@@ -1,0 +1,272 @@
+*,*::before
+*::after{
+    box-sizing: border-box;
+}
+html{
+    background-color: black;
+}
+
+body{
+    font-size: 1rem;
+    color: white;
+    transition: background-color 1s ease;
+    margin: 0;
+}
+
+.container{
+    min-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 30px;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.portrait {
+    font-family: 'DM Sans', sans-serif;
+    display: block;
+    float: left;
+    margin-right: 30rem;
+}
+.topnav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #53535366;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+.topnav a{
+    color: #f1f1f1;
+    text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
+    float: left;
+    text-align: center;
+    padding: 15px;
+    font-size: 1rem;
+}
+
+.topnav a.logo{
+  display: contents;
+}
+
+.topnav a:hover{
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #c3c3c35e;
+    color: white;
+}
+
+.homeimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeimg img {
+  border-radius: 1rem;
+}
+
+a.logo img{
+    width: 40px; 
+    margin-top: 3px;
+    margin-left: 10px;
+    margin-right: auto;
+}
+
+#new_section {
+  display: none;
+}
+
+section {
+    /* min height incase content is higher than window height */
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    outline: 1px solid rgb(43, 43, 43); 
+    padding: 0.5rem;
+}
+
+.sectionimg:nth-of-type(even) > section {
+    flex-direction: row-reverse;
+}
+
+.liste-analogie{
+    font-family: 'DM Sans', sans-serif;
+}
+
+.text{
+    color: #f1f1f1;
+}
+
+.images{
+    width: 700px;
+    height: 400px;
+    padding: 30px;
+    border-radius: 5rem;
+    transition: all 1s;
+    transform: scale(1.1);
+}
+.titreanalogie{
+    padding: 30px;
+}
+.show {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.tag-list{
+    font-family: 'DM Sans', sans-serif;
+    margin: 0;
+    padding-inline: 0;
+    list-style: none;
+    color: #f1f1f1;
+    padding-block: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    width: fit-content;
+}
+
+.tag-list li {
+    padding: 1rem;
+    background: #272727;
+    border-radius: 0.5rem;    
+}
+
+.scroller{
+    max-width: 600px;
+    /*border: 5px solid green;*/
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.scroller[data-animated=true]{
+    overflow: hidden;
+    mask: linear-gradient(
+        90deg,
+        transparent,
+        white 20%,
+        white 80%,
+        transparent
+        );
+        mask: linear-gradient(
+        90deg,
+        transparent,
+        white 20%,
+        white 80%,
+        transparent
+        );
+}
+
+.scroller[data-animated=true] .tag-list{
+    flex-wrap: nowrap;
+    animation: scroll 30s linear infinite;
+}
+
+@keyframes scroll {
+    to{
+        transform: translate(calc(-50% - 0.5rem));
+    }
+}
+
+.right {
+    text-align: right;
+}
+
+.star-required {
+    color: rgb(205, 0, 0);
+}
+
+.txt-required {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+footer{
+    outline: solid 1px #585858a8;
+}
+
+form {
+    width: 500px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+legend {
+    background-color: #f1f1f1;
+    color: black;
+    padding: 8px 20px;
+}
+
+/*mise en forme des zones de saisies*/
+
+.w100, select {
+    width: 100%;    
+    height: 30px;
+}
+
+#id.w100 {
+  display: none;
+}
+
+input[type="button"] {
+    background-color: #f1f1f1;
+    color: black;
+    padding: 0.3em 1em;
+    font-size: 1rem;
+    font-family: 'DM Sans', sans-serif;
+}
+
+input[type="button"]:hover {
+    background-color: white;
+    color: #18222b;
+    border: 1px solid #18222b;
+}
+
+.txt-required{
+    color: #9b9b9b;
+}
+
+/* mise en forme des champs input obligatoires */
+input:required {
+    border: 1px solid #e52c2c;     
+} 
+
+/* mise en forme des champs input obligatoires qui deviennent valides*/
+input:required:valid {
+    border: 1px solid #1a961a;
+}
+
+input[type=button]:focus {
+    outline: 2px dashed #18222b;
+}
+
+select {
+         background-color: transparent;
+}
+
+.copyright a{
+    text-decoration: none;
+    color: rgb(188, 188, 188);
+}
+
+.copyright{
+    padding: 1.5rem;
+    width: fit-content;
+    text-align: right;
+    float: right;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.copyrightsign{
+    font-family: 'DM Sans', sans-serif;
+}

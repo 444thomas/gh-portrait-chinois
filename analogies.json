@@ -1,0 +1,58 @@
+[
+  {  "titre" : "Animal",
+     "analogie": "un animal",
+     "valeurAnalogie": "un chat",
+     "description": "Parce que le chat est mon animal préféré. J’ai toujours vécu avec au moins un chat chez moi. C’est pour moi le meilleur animal de compagnie car c’est un animal indépendant mais aussi affectueux et curieux, ce qui reflète ma personnalité. Je suis quelqu’un indépendant, et je sais me débrouiller seul. Tout comme le chat, je suis très curieux et vais aller chercher et fouiller dans les choses qui m’intriguent",
+     "img": "https://cdn.pixabay.com/photo/2023/04/27/14/00/cat-7954713_1280.jpg",
+     "id": "animal",
+     "alt":"image d'un maincoon."
+  },
+  {  "titre" : "Couleur",
+     "analogie": "une couleur",
+     "valeurAnalogie": "bleu",
+     "description": "Parce que le bleu est ma couleur préférée et symbolise pour moi la tranquillité et le calme. Elle reflète ma personnalité réfléchie, calme et tranquille. Le bleu est également très présent dans la nature, ce qui reflète également ma tranquillité",
+     "img": "https://cdn.pixabay.com/photo/2013/12/17/20/10/bubbles-230014_1280.jpg",
+     "id": "couleur",
+     "alt":"image d'eau."
+  },
+  {  "titre" : "Sport",
+     "analogie": "un sport",
+     "valeurAnalogie": "le football",
+     "description": "Parce que le football est un sport que je pratique depuis mon enfance. C’est un sport collectif, qui se joue en équipe et qui requiert une certaine cohésion de groupe, ce que j’aime particulièrement. Je suis quelqu’un qui aime les travaux de groupe et la cohésion avec mes amis lors de ces travaux. Il me représente également car le football est un sport à la fois physique mais aussi de loisir, ce qui représente ma mentalité qui allie la discipline du physique avec l’amusement du loisir",
+     "img": "https://cdn.pixabay.com/photo/2014/10/14/20/24/ball-488718_1280.jpg",
+     "id": "sport",
+     "alt":"image d'un ballon de football sur un terrain."
+  },
+  {  "titre" : "Ville",
+     "analogie": "une ville",
+     "valeurAnalogie": "Paris",
+     "description": "Parce que à mes yeux, Il est possible de tout faire à Paris, tant culturellement, gastronomiquement qu’en terme de divertissement. Son dynamisme, la richesse de son patrimoine en font pour moi une bonne représentation de moi. Je suis à la fois dynamique, gourmand et j’aime pouvoir bouger partout et tout faire quand je le veux, c’est aussi une grande ville, ce que je suis aussi",
+     "img": "https://cdn.pixabay.com/photo/2018/04/25/09/26/eiffel-tower-3349075_1280.jpg",
+     "id": "ville",
+     "alt":"image du quartier de la tour eiffel à paris."
+  },
+  {  "titre" : "Chiffre",
+     "analogie": "un chiffre",
+     "valeurAnalogie": "le 4",
+     "description": "Parce le 4 est mon chiffre porte bonheur, je il me suit depuis un moment maintenant, notamment sous sa forme angélique 444. Ce chiffre symbolise la stabilité et la fondation, qui reflète ma préférence pour l'équilibre et la structure dans ma vie au quotidien. En choisissant le chiffre 4, je m'identifie à la force tranquille que ce chiffre représente",
+     "img": "https://i.pinimg.com/564x/0d/c7/14/0dc714bf05963dfaa4bac453d1640b68.jpg",
+     "id": "chiffre",
+     "alt":"image du nombre 444."
+  }, 
+  {  "titre" : "Sentiment",
+     "analogie": "un sentiment",
+     "valeurAnalogie": "l'hésitation",
+     "description": "Parce qu’à chaque fois qu’il faut prendre une décision, peu importe laquelle je ne sais jamais faire de choix. Chez certains, faire des choix est instinctif mais chez moi c’est une tout autre affaire",
+     "img": "https://i.pinimg.com/564x/da/cb/b6/dacbb62baa68df04347912d6937ae3ab.jpg",
+     "id": "sentiment",
+     "alt":"image de l'hésitation."
+  },
+  {  "titre" : "Objet",
+     "analogie": "un objet",
+     "valeurAnalogie": "une carte bancaire",
+     "description": "si j’étais un objet je serais une carte bancaire. Parce que je dépense trop d’argent dans les magasins et sur internet, j’adore acheter des choses, que ce soit pour moi ou pour les autres. Cela me procure un sentiment de bonheur et me permet d’imaginer ce que je vais faire de ce que je viens d’acheter. Une carte bancaire me représenterait bien car elle fait plaisir à son possesseur mais également aux personnes pour qui elle achète des choses",
+     "img": "https://cdn.pixabay.com/photo/2015/07/19/13/33/credit-card-851506_960_720.jpg",
+     "id": "objet",
+     "alt":"image d'une carte bancaire."
+  }
+]
